@@ -1,0 +1,54 @@
+# Python Quiz App
+
+This is a simple console-based quiz app written in Python. It allows users to take a quiz with a set of predefined questions and provides feedback on their performance.
+
+## Features
+
+- Multiple-choice questions
+- Randomized question order
+- Score tracking
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x installed
+
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/python-quiz-app.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd python-quiz-app
+    ```
+
+3. Run the quiz app:
+
+    ```bash
+    python quiz_app.py
+    ```
+
+## Usage
+
+Follow the on-screen instructions to answer the quiz questions. After completing the quiz, your score will be displayed.
+
+## Customization
+
+Feel free to customize the quiz by adding more questions or modifying existing ones. Refer to the `questions` list in the `quiz_app.py` file.
+
+```python
+# Sample questions
+questions = [
+    {
+        'question': 'What is the capital of France?',
+        'options': ['Berlin', 'Paris', 'Madrid', 'Rome'],
+        'correct_answer': 2
+    },
+    # Add more questions here
+]
